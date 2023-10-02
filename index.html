@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top bg-white">
+    <div class="container-fluid px-5">
+      <a class="navbar-brand fs-2" href="#">Techno <span class="text-primary">Web</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#Service" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Services">Web development</a></li>
+              <li><a class="dropdown-item" href="#team">Graphics design</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Content Creation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ===========================================carisole======================================= -->
+  <div id="carouselExampleCaptions" class="carousel slide container-fluid">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/public/images/carisol3.avif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <h5>Innovative Coding and Development Solutions</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/public/images/carisol2.avif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <h5>Robust IT Infrastructure for Seamless Operations</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/public/images/carisol1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-dark">
+          <h5>Expert Consultation and Problem-Solving</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <section id="About" class="my-5">
+     <div class="container">
+      <div>
+        <h1 class="text-center">About <span class="text-primary">Us</span></h1>
+        <hr class="w-25 m-auto">
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <h1 class="pt-4">What Do You <span class="text-primary">Want to know?</span></h1>
+        <p class="text-start p-2">Welcome to Techno-Web Company, a trailblazer in innovation and excellence. With a rich history spanning over two decades, we have consistently pushed the boundaries of what's possible in the world of business. Our commitment to delivering unparalleled quality and cutting-edge solutions has earned us a well-deserved reputation as a global leader in our industry.</p>
+        <button class="btn btn-dark mb-4">know more</button>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                About Techno-Web
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><b>Techno-Web</b> is a cutting-edge technology company that specializes in providing innovative solutions to complex challenges. With a team of passionate experts from diverse fields, we strive to transform industries and elevate businesses through the power of technology.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Mission
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Our mission is to revolutionize the way businesses operate by delivering advanced technological solutions that enhance efficiency, productivity, and profitability. We aim to be at the forefront of innovation, helping our clients stay ahead in the rapidly evolving digital landscape.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Clientele
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Our diverse client base spans across industries, including finance, healthcare, manufacturing, and e-commerce. Some of our notable clients include Fortune 500 companies, innovative startups, and forward-thinking government agencies.</div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        <div class="col m-auto text-center">
+       <img src="/public/images/micosoft.avif" alt="" class="img-fluid img-thumbnail w-100 mt-5 h-50">
+        </div>
+      </div>
+     </div>
+    </section>
+    <section id="Services" class="container">
+      <div>
+        <h1 class="text-center text-primary">Services</h1>
+        <hr class="w-25 m-auto">
+      </div>
+      <div class="row my-5 container-fluid">
+           <div class="col-12 col-sm-12 col-lg-4 col-xl-4 mb-4">
+            <div class="card bg-light text-primary" style="width: 18rem;">
+              <img src="/public/images/technologi.avif" class="card-img-top w-100" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Technologies</h5>
+                <ul class="card-text list-unstyled  text-secondary">
+                  <li>HTML/CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Javascript</li>
+                </ul>
+                <a href="#" class="btn btn-outline-dark">Read more</a>
+              </div>
+            </div>
+           </div>
+           <div class="col-12 col-sm-12 col-lg-4 col-xl-4 mb-4">
+            <div class="card bg-light text-primary text-center" style="width: 18rem;">
+              <img src="/public/images/clients.avif" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Clients</h5>
+                 <ul class="list-unstyled text-secondary">
+                  <li> Microsoft</li>
+                  <li> Facebook</li>
+                  <li> Twitter</li>
+                 </ul>
+                <a href="#" class="btn btn-outline-dark">Read more</a>
+              </div>
+            </div>
+           </div>
+           <div class="col-12 col-sm-12 col-lg-4 col-xl-4">
+            <div class="card bg-light text-center" style="width: 18rem;">
+              <img src="/public/images/projects.avif" class="card-img-top w-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Projects</h5>
+                <ul class="card-text list-unstyled text-secondary">
+                  <li>Project PhoenixTech</li>
+                  <li>Project InnovateIT</li>
+                  <li>Project QuantumLeap</li>
+                </ul>
+                <a href="#" class="btn btn-outline-dark">Read more</a>
+              </div>
+            </div>
+           </div>
+      </div>
+    </section>
+    <section id="team" class="container">
+      <div>
+        <h1 class="text-center text-primary">Team</h1>
+        <hr class="w-25 m-auto">
+      </div>
+      <div class="row container my-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <img src="/public/images/user1.avif" class="card-img-top img-fluid rounded-circle p-2 border border-primary mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Aiden Lucas</h5>
+              <p class="card-text">Data Scientist</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-4">
+          <div class="card text-center" style="width: 18rem;">
+            <img src="/public/images/user2.avif" class="card-img-top img-fluid rounded-circle p-2 border border-primary mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Emma Olivia</h5>
+              <p class="card-text">Web Developer</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-4 ">
+          <div class="card text-center" style="width: 18rem;">
+            <img src="/public/images/user3.avif" class="card-img-top img-fluid rounded-circle p-2 border border-primary mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ethan Jackson</h5>
+              <p class="card-text">Automation Tester</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 bg-light">
+          <form class="row g-3 m-5 border-5 border-primary">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="lastname" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+            <img src="/public/images/happy faces.avif" alt="" class="w-100 p-5">
+        </div>
+      </div>
+    </section>
+    <footer class="container-fluid bg-secondary">
+      <h3 class="text-center py-3">Deleloped by Ankit Deshmukh</h3>
+    </footer>
+    </div>
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
